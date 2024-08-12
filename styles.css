@@ -1,8 +1,8 @@
 :root {
   --dark-blue: #04254d;
-  --bright-blue: #0087ff;
+  --light-blue: #0087ff;
   --dark-green: #0ca678;
-  --bright-green: #12b886;
+  --light-green: #12b886;
   --text-black: #27272a;
   --text-white: #fff;
 }
@@ -133,7 +133,7 @@ button {
   padding: 1.6rem 3.2rem;
   text-transform: uppercase;
   color: var(--text-white);
-  background-color: var(--bright-green);
+  background-color: var(--light-green);
   border: none;
   border-radius: 0.8rem;
   cursor: pointer;
@@ -161,7 +161,7 @@ a:visited .footer-icon {
 
 a:hover .footer-icon,
 a:active .footer-icon {
-  color: var(--bright-blue);
+  color: var(--light-blue);
 }
 
 /* MEDIA QUERY */
