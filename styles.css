@@ -39,11 +39,9 @@ body {
   gap: 2.4rem;
 }
 
-input,
 textarea,
 button,
-.input-control,
-.input-textarea {
+.input-control {
   font-family: inherit;
   font-size: inherit;
 }
