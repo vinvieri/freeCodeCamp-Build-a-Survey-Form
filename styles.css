@@ -149,16 +149,16 @@ footer {
   gap: 8rem;
 }
 
-a:link .footer-icon,
-a:visited .footer-icon {
+.footer-link:link .footer-icon,
+.footer-link:visited .footer-icon {
   width: 4.8rem;
   height: 4.8rem;
   color: var(--dark-blue);
   transition: all 0.4s;
 }
 
-a:hover .footer-icon,
-a:active .footer-icon {
+.footer-link:hover .footer-icon,
+.footer-link:active .footer-icon {
   color: var(--light-blue);
 }
 
